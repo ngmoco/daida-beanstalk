@@ -1,0 +1,14 @@
+{
+	"name": "daida-beanstalk",
+	"version": "0.0.1",
+	"main": "./lib/beanstalk.js",
+	"description": "Beanstalkd based persistence and worker plugin for the daida scheduler library",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies" : {
+		"beanstalk_client": "*",
+		"beanstalk_worker": "git://github.com/therealjessesanford/node-beanstalk-worker.git"
+	},
+	"keywords": ["job", "scheduler", "beanstalk", "daida"]
+}
