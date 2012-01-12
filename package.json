@@ -7,7 +7,7 @@
 		"node": "*"
 	},
 	"dependencies" : {
-		"beanstalk_client": "*",
+		"beanstalk_client": "git://github.com/therealjessesanford/node-beanstalk-client.git",
 		"beanstalk_worker": "git://github.com/therealjessesanford/node-beanstalk-worker.git"
 	},
 	"keywords": ["job", "scheduler", "beanstalk", "daida"]
